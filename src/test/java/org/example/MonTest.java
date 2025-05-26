@@ -23,7 +23,7 @@ public class MonTest {
 
     @Test
     public void testGoogle() {
-        driver.get("https://www.google.m");
+        driver.get("https://www.google.com");
         Assertions.assertEquals("Google", driver.getTitle());
     }
 

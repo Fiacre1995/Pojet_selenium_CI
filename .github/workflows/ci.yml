@@ -1,8 +1,8 @@
 name: CI - Selenium Java
 
 on:
-  schedule:
-    - cron: '*/1 * * * *'   # ⏱️ Chaque minute (UTC)
+  #schedule:
+    #- cron: '*/1 * * * *'   # ⏱️ Chaque minute (UTC)
   workflow_dispatch:           # Permet lancement manuel
   push:
     branches: [ main ]

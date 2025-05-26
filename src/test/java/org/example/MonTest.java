@@ -14,6 +14,7 @@ public class MonTest {
     public void setup() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
+        // Exécuté les tests en arrière plan et sur un serveur externe
         options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");

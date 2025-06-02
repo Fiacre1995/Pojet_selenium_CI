@@ -3,7 +3,7 @@ name: CI - Selenium Java
 on:
   #schedule:
     #- cron: '*/1 * * * *'   # ⏱️ Chaque minute (UTC)
-  workflow_dispatch:           # Permet lancement manuel à partir de github action
+  workflow_dispatch:           # Permet lancement manuel à partir de github action valide
   push:
     branches: [ main ]
   pull_request:
